@@ -1,0 +1,97 @@
+{
+  "project_info": {
+    "project_number": "85745675457",
+    "project_id": "testing-projects-18ff9",
+    "storage_bucket": "testing-projects-18ff9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:85745675457:android:416214c690525efb62f840",
+        "android_client_info": {
+          "package_name": "com.example.bus_ticket_booking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "85745675457-fe9he71k8th5or8itvdbej12hoc5q8vv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3yZulBWvxy8ggSNoDXp3_ePSc85k9dLw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "85745675457-fe9he71k8th5or8itvdbej12hoc5q8vv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:85745675457:android:d02f7aa9c398194a62f840",
+        "android_client_info": {
+          "package_name": "com.example.ecommerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "85745675457-fe9he71k8th5or8itvdbej12hoc5q8vv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3yZulBWvxy8ggSNoDXp3_ePSc85k9dLw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "85745675457-fe9he71k8th5or8itvdbej12hoc5q8vv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:85745675457:android:f1e732845b46a0a662f840",
+        "android_client_info": {
+          "package_name": "com.flutter_flutter_firebase.firebase_upload"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "85745675457-fe9he71k8th5or8itvdbej12hoc5q8vv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3yZulBWvxy8ggSNoDXp3_ePSc85k9dLw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "85745675457-fe9he71k8th5or8itvdbej12hoc5q8vv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
