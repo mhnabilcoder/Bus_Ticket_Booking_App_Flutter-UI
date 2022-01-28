@@ -75,18 +75,18 @@ class _WelcomePageState extends State<WelcomePage> {
           text: 'Book',
           style: GoogleFonts.portLligatSans(
             textStyle: Theme.of(context).textTheme.headline1,
-            fontSize: 30,
+            fontSize: 38,
             fontWeight: FontWeight.w700,
-            color: Colors.white,
+            color: Colors.black,
           ),
           children: [
             TextSpan(
               text: 'My',
-              style: TextStyle(color: Colors.black, fontSize: 30),
+              style: TextStyle(color: Colors.white, fontSize: 34),
             ),
             TextSpan(
               text: 'Bus',
-              style: TextStyle(color: Colors.white, fontSize: 34),
+              style: TextStyle(color: Colors.black, fontSize: 38),
             ),
           ]),
     );

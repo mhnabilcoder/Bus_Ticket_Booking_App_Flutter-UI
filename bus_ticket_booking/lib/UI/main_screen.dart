@@ -1,4 +1,6 @@
+import 'package:bus_ticket_booking/UI/aboutus_screen.dart';
 import 'package:bus_ticket_booking/UI/notification_screeen.dart';
+import 'package:bus_ticket_booking/UI/terms_cond_screen.dart';
 import 'package:url_launcher/url_launcher.dart' as UrlLauncher;
 import 'package:bus_ticket_booking/UI/offers_screen.dart';
 import 'package:flutter/material.dart';
@@ -18,7 +20,7 @@ class MainScreen extends StatelessWidget {
             Expanded(
               child: ListView(
                 children:[
-                  DrawerHeader(child: FlutterLogo()),
+                  DrawerHeader(child: Image.asset('assets/images/book_my_bus.png')),
                   ListTile(
                     leading: Icon(Icons.call),
                     title: const Text('Call Support'),
@@ -38,6 +40,7 @@ class MainScreen extends StatelessWidget {
                           leading: Icon(Icons.description_rounded),
                           title: const Text('Terms & Conditions'),
                           onTap: () {
+                            Navigator.push(context, MaterialPageRoute(builder: (context) => TermsConPage(),));
                           },
                         ),
                 ],
@@ -52,9 +55,14 @@ class MainScreen extends StatelessWidget {
                         child: Column(
                           children: <Widget>[
                             Divider(),
-                            ListTile(
-                                leading: Icon(Icons.help),
-                                title: Text('About Us',style: TextStyle(fontSize: 18),)),
+                            GestureDetector(
+                              onTap: () {
+                                Navigator.push(context, MaterialPageRoute(builder: (context) => AboutUsPage(),));
+                              },
+                              child: ListTile(
+                                  leading: Icon(Icons.help),
+                                  title: Text('About Us',style: TextStyle(fontSize: 18),)),
+                            ),
                           ],
                         ),
                     )
@@ -66,7 +74,7 @@ class MainScreen extends StatelessWidget {
 
 
 
-
+//Text("BookMyBus",style: TextStyle(color: Colors.black,fontSize: 24,fontWeight: FontWeight.w800),)
 
       appBar: AppBar(
         backgroundColor: Colors.white,
@@ -74,7 +82,10 @@ class MainScreen extends StatelessWidget {
           size: 40,
           color: Color(0xfff7892b),
         ),
-        title: Text("BookMyBus",style: TextStyle(color: Colors.black,fontSize: 24,fontWeight: FontWeight.w800),),
+        title: Padding(
+          padding: const EdgeInsets.all(50.0),
+          child: Image(image: AssetImage('assets/images/book_my_bus.png')),
+        ),
         centerTitle: true,
         actions: [
           Padding(
